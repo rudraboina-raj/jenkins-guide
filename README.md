@@ -30,3 +30,17 @@ Continous deployment:
 
 Automatically deploy all validated changes to production. 
 Frequent feedback enables issues to be found and fixed quickly.
+
+Why we need CI/CD?
+
+→ Detect bugs and problems in early stages of SDLC
+
+→ Save Cost and efforts
+
+→ Improves Co-ordination between teams, implement innovative ideas .
+
+→Faster release to production system.
+
+→ Automated testing helps deliver a top-notch quality product.
+
+ → Minimum human intervention, hence less chances of manual errors.
