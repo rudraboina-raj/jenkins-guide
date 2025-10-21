@@ -63,3 +63,17 @@ Scan
 Upload
 
 →Once the previous stages are successful it will upload the build to build repository such as nexus, jfrog artifactory
+
+CONTINOUS DELIVERY/DEPLOYMENT
+
+Dev
+
+→Then the build is transferred to lower environments ,Such as Dev for the deployment using tools. Such as Ansible, Helm for K8's related deployments
+
+UAT
+
+→Once it is approved and tested in dev it would then deploy in pre-production UAT environment.
+
+Production 
+
+→ Once it is approved  testing in UAT, then it is ready for deployment in production.
