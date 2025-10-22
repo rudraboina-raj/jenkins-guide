@@ -78,7 +78,7 @@ Production
 
 → Once it is approved  testing in UAT, then it is ready for deployment in production.
 
-Jenkins installation script 
+Jenkins Installation Script :-
 
 #!/bin/bash
 
