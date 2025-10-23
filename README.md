@@ -43,7 +43,7 @@ Why we need CI/CD?
 
 → Automated testing helps deliver a top-notch quality product.
 
- → Minimum human intervention, hence less chances of manual errors.
+ → Minimum human intervention, hence less chances of manual error.
 
  CONTINOUS INTEGRATION
 
