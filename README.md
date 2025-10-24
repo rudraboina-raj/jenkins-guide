@@ -17,7 +17,7 @@ Deploy
    |                                          |   > CD
 Operate
 
-
+-------------------------------------------------------------------------
 Continous Integration:
 
 It is the frequent, automatic integration of code, All new and modified code is automatically tested with master code.
@@ -30,7 +30,7 @@ Continous deployment:
 
 Automatically deploy all validated changes to production. 
 Frequent feedback enables issues to be found and fixed quickly.
-
+-------------------------------------------------------
 Why we need CI/CD?
 
 → Detect bugs and problems in early stages of SDLC
@@ -44,7 +44,7 @@ Why we need CI/CD?
 → Automated testing helps deliver a top-notch quality product.
 
  → Minimum human intervention, hence less chances of manual error.
-
+-----------------------------------------------------------------------
  CONTINOUS INTEGRATION
 
 Build
@@ -77,7 +77,7 @@ UAT
 Production 
 
 → Once it is approved  testing in UAT, then it is ready for deployment in production.
-
+--------------------------------------------------------------------------
 Jenkins Installation Script :-
 
 #!/bin/bash
@@ -99,7 +99,7 @@ sudo yum install jenkins -y
 sudo systemctl start jenkins
 
 sudo systemctl enable jenkins
-
+------------------------------------------
 Login to Jenkins using the below URL:
 
 http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
