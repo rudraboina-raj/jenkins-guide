@@ -69,6 +69,7 @@ Upload
 →Once the previous stages are successful it will upload the build to build repository such as nexus, jfrog artifactory
 
 CONTINOUS DELIVERY/DEPLOYMENT
+-----------------------------------------------------------------------
 
 Dev
 
