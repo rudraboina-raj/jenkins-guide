@@ -99,3 +99,12 @@ sudo yum install jenkins -y
 sudo systemctl start jenkins
 
 sudo systemctl enable jenkins
+
+Login to Jenkins using the below URL:
+
+http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
+
+Note: If you are not interested in allowing All Traffic to your EC2 instance 1. Delete the inbound traffic rule for your instance 2. Edit the inbound traffic rule to only allow custom TCP port 8080
+
+After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
+
