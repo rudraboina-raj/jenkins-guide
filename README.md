@@ -115,10 +115,10 @@ Note: If you are not interested in allowing All Traffic to your EC2 instance 1. 
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
-Difference between GitHub Actions and Jenkins written clearly one below the other
+Difference between GitHub Actions and Jenkins written clearly one below the other :
 --------------------------------------------------------------------------------
 
-🟦 GitHub Actions
+🟦 GitHub Actions :
 
 GitHub Actions is a cloud-based CI/CD tool provided by GitHub.
 
@@ -144,7 +144,7 @@ Best suited for teams who are already using GitHub and want a simple, ready-to-u
 
 The user interface is modern and clean, integrated directly into GitHub.
 
-🟩 Jenkins
+🟩 Jenkins :
 
 Jenkins is an open-source, self-hosted CI/CD tool.
 
