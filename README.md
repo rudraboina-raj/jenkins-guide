@@ -115,3 +115,63 @@ Note: If you are not interested in allowing All Traffic to your EC2 instance 1. 
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
+Difference between GitHub Actions and Jenkins written clearly one below the other
+--------------------------------------------------------------------------------
+
+🟦 GitHub Actions
+
+GitHub Actions is a cloud-based CI/CD tool provided by GitHub.
+
+It is managed by GitHub, so you don’t need to install or maintain any server.
+
+It is tightly integrated with GitHub repositories — whenever you push code or create a pull request, the workflows can automatically run.
+
+Pipelines are written in YAML files and stored inside the repo under .github/workflows/.
+
+Setup is very easy — you can start using it directly from your GitHub project.
+
+It uses GitHub-hosted runners (virtual machines provided by GitHub) or self-hosted runners if you want more control.
+
+Scaling is automatic; GitHub handles it for you.
+
+It has a marketplace where you can use or create reusable “actions” for different tasks (like testing, building, deploying).
+
+Security is managed by GitHub, and secrets can be stored safely in GitHub Secrets.
+
+It is free up to a limit of build minutes; after that, you pay for usage.
+
+Best suited for teams who are already using GitHub and want a simple, ready-to-use CI/CD system.
+
+The user interface is modern and clean, integrated directly into GitHub.
+
+🟩 Jenkins
+
+Jenkins is an open-source, self-hosted CI/CD tool.
+
+You must install and manage Jenkins on your own servers or cloud machines.
+
+It can integrate with any source control system like GitHub, GitLab, Bitbucket, or even local repositories.
+
+Pipelines are written using Groovy scripts inside a Jenkinsfile.
+
+Setup requires manual configuration of plugins, agents, and environments.
+
+It is highly customizable, with more than 1800 plugins available for almost any integration.
+
+You must manage scaling manually by adding Jenkins agents (nodes) for parallel builds.
+
+Security and maintenance are your responsibility — you need to handle server updates and plugin patches.
+
+Jenkins is completely free to use, but you pay for your own infrastructure.
+
+It’s more suited for enterprises or teams that need full control and flexibility in their CI/CD pipelines.
+
+The user interface is older and not as modern, but very functional.
+
+🟠 Summary in Simple Words
+------------------------------------
+
+GitHub Actions = Cloud-based, simple, GitHub-integrated, no maintenance needed.
+
+Jenkins = Self-hosted, powerful, flexible, but needs setup and maintenance.
+
