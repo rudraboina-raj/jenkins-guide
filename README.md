@@ -119,7 +119,7 @@ Difference between GitHub Actions and Jenkins written clearly one below the othe
 --------------------------------------------------------------------------------
 
 🟦 GitHub Actions :
-
+-------------------------------------------------
 GitHub Actions is a cloud-based CI/CD tool provided by GitHub.
 
 It is managed by GitHub, so you don’t need to install or maintain any server.
@@ -145,7 +145,7 @@ Best suited for teams who are already using GitHub and want a simple, ready-to-u
 The user interface is modern and clean, integrated directly into GitHub.
 
 🟩 Jenkins :
-
+-------------------------------------------
 Jenkins is an open-source, self-hosted CI/CD tool.
 
 You must install and manage Jenkins on your own servers or cloud machines.
