@@ -36,52 +36,52 @@ Frequent feedback enables issues to be found and fixed quickly.
 Why we need CI/CD?
 -------------------------------------------------------
 
-→ Detect bugs and problems in early stages of SDLC
+* Detect bugs and problems in early stages of SDLC
 
-→ Save Cost and efforts
+* Save Cost and efforts
 
-→ Improves Co-ordination between teams, implement innovative ideas .
+* Improves Co-ordination between teams, implement innovative ideas .
 
-→Faster release to production system.
+* Faster release to production system.
 
-→ Automated testing helps deliver a top-notch quality product.
+* Automated testing helps deliver a top-notch quality product.
 
- → Minimum human intervention, hence less chances of manual error.
+* Minimum human intervention, hence less chances of manual error.
 
  CONTINOUS INTEGRATION
 -----------------------------------------------------------------------
 
 Build
 
-→  Jenkins triggers a build with the help of webhooks Using tools maven, gradle, npm.
+*  Jenkins triggers a build with the help of webhooks Using tools maven, gradle, npm.
 
 Test
 
-→ It triggers test Cases Using tools such as selenium, Junit then it generates report test cases to developers and stake holders.
+* It triggers test Cases Using tools such as selenium, Junit then it generates report test cases to developers and stake holders.
 It will be uploaded in a repository for achieving and analytical purpose.
 
 Scan
 
-→ If the test cases passed build will be Scanned for vulnerability and Static Code analysis Using tools Blackduck , SonarQube.
+* If the test cases passed build will be Scanned for vulnerability and Static Code analysis Using tools Blackduck , SonarQube.
 
 Upload
 
-→Once the previous stages are successful it will upload the build to build repository such as nexus, jfrog artifactory
+* Once the previous stages are successful it will upload the build to build repository such as nexus, jfrog artifactory
 
 CONTINOUS DELIVERY/DEPLOYMENT
 -----------------------------------------------------------------------
 
 Dev
 
-→Then the build is transferred to lower environments ,Such as Dev for the deployment using tools. Such as Ansible, Helm for K8's related deployments
+* Then the build is transferred to lower environments ,Such as Dev for the deployment using tools. Such as Ansible, Helm for K8's related deployments
 
 UAT
 
-→Once it is approved and tested in dev it would then deploy in pre-production UAT environment.
+* Once it is approved and tested in dev it would then deploy in pre-production UAT environment.
 
 Production 
 
-→ Once it is approved  testing in UAT, then it is ready for deployment in production.
+* Once it is approved  testing in UAT, then it is ready for deployment in production.
 
 Jenkins Installation Script :-
 -----------------------------------------------------------------------
@@ -120,53 +120,53 @@ Difference between GitHub Actions and Jenkins written clearly one below the othe
 
 🟦 GitHub Actions :
 -------------------------------------------------
-GitHub Actions is a cloud-based CI/CD tool provided by GitHub.
+* GitHub Actions is a cloud-based CI/CD tool provided by GitHub.
 
-It is managed by GitHub, so you don’t need to install or maintain any server.
+* It is managed by GitHub, so you don’t need to install or maintain any server.
 
-It is tightly integrated with GitHub repositories — whenever you push code or create a pull request, the workflows can automatically run.
+* It is tightly integrated with GitHub repositories — whenever you push code or create a pull request, the workflows can automatically run.
 
-Pipelines are written in YAML files and stored inside the repo under .github/workflows/.
+* Pipelines are written in YAML files and stored inside the repo under .github/workflows/.
 
-Setup is very easy — you can start using it directly from your GitHub project.
+* Setup is very easy — you can start using it directly from your GitHub project.
 
-It uses GitHub-hosted runners (virtual machines provided by GitHub) or self-hosted runners if you want more control.
+* It uses GitHub-hosted runners (virtual machines provided by GitHub) or self-hosted runners if you want more control.
 
-Scaling is automatic; GitHub handles it for you.
+* Scaling is automatic; GitHub handles it for you.
 
-It has a marketplace where you can use or create reusable “actions” for different tasks (like testing, building, deploying).
+* It has a marketplace where you can use or create reusable “actions” for different tasks (like testing, building, deploying).
 
-Security is managed by GitHub, and secrets can be stored safely in GitHub Secrets.
+* Security is managed by GitHub, and secrets can be stored safely in GitHub Secrets.
 
-It is free up to a limit of build minutes; after that, you pay for usage.
+* It is free up to a limit of build minutes; after that, you pay for usage.
 
-Best suited for teams who are already using GitHub and want a simple, ready-to-use CI/CD system.
+* Best suited for teams who are already using GitHub and want a simple, ready-to-use CI/CD system.
 
-The user interface is modern and clean, integrated directly into GitHub.
+* The user interface is modern and clean, integrated directly into GitHub.
 
 🟩 Jenkins :
 -------------------------------------------
-Jenkins is an open-source, self-hosted CI/CD tool.
+* Jenkins is an open-source, self-hosted CI/CD tool.
 
-You must install and manage Jenkins on your own servers or cloud machines.
+* You must install and manage Jenkins on your own servers or cloud machines.
 
-It can integrate with any source control system like GitHub, GitLab, Bitbucket, or even local repositories.
+* It can integrate with any source control system like GitHub, GitLab, Bitbucket, or even local repositories.
 
-Pipelines are written using Groovy scripts inside a Jenkinsfile.
+* Pipelines are written using Groovy scripts inside a Jenkinsfile.
 
-Setup requires manual configuration of plugins, agents, and environments.
+* Setup requires manual configuration of plugins, agents, and environments.
 
-It is highly customizable, with more than 1800 plugins available for almost any integration.
+* It is highly customizable, with more than 1800 plugins available for almost any integration.
 
-You must manage scaling manually by adding Jenkins agents (nodes) for parallel builds.
+* You must manage scaling manually by adding Jenkins agents (nodes) for parallel builds.
 
-Security and maintenance are your responsibility — you need to handle server updates and plugin patches.
+* Security and maintenance are your responsibility — you need to handle server updates and plugin patches.
 
-Jenkins is completely free to use, but you pay for your own infrastructure.
+* Jenkins is completely free to use, but you pay for your own infrastructure.
 
-It’s more suited for enterprises or teams that need full control and flexibility in their CI/CD pipelines.
+* It’s more suited for enterprises or teams that need full control and flexibility in their CI/CD pipelines.
 
-The user interface is older and not as modern, but very functional.
+* The user interface is older and not as modern, but very functional.
 
 🟠 Summary in Simple Words
 ------------------------------------
